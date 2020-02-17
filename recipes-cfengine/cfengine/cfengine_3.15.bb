@@ -72,7 +72,7 @@ PACKAGECONFIG[systemd] = "--with-systemd-service=${systemd_system_unitdir},--wit
 PACKAGECONFIG[libcurl] = "--with-libcurl,--without-libcurl,curl,"
 PACKAGECONFIG[enterprise] = ",,,"
 
-PACKAGECONFIG ??= "libpcre openssl libcurl enterprise \
+PACKAGECONFIG ??= "libpcre openssl libcurl \
                    ${@bb.utils.filter('DISTRO_FEATURES', 'pam systemd', d)} \
 "
 
