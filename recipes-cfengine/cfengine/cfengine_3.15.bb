@@ -4,7 +4,7 @@ that helps engineers, system administrators and other stakeholders \
 in an IT system to manage and understand IT infrastructure throughout \
 its lifecycle. CFEngine takes systems from Build to Deploy, Manage and Audit."
 
-HOMEPAGE = "http://cfengine.com"
+HOMEPAGE = "https://cfengine.com"
 
 SECTION = "utils"
 LICENSE = "GPLv3"
